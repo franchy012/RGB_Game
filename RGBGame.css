@@ -1,0 +1,63 @@
+body {
+    background-color:  #232323;
+    margin: 0;
+}
+
+.square {
+    width: 25%;
+    background-color: purple;
+    padding-bottom: 25%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    transition: background 0.5s;
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+
+}
+
+
+
+#container {
+    margin: 0 auto;
+    max-width: 50%;
+    margin-left: 30%;
+
+}
+
+#head {
+    background-color: #6C757D;
+    color: white;
+    margin: 0;
+    width: 100%;
+    padding: 5px;  
+    border: 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+#stripe {
+    background-color: white;
+    height: 30%;
+    text-align: center;
+    color: black;
+    margin-top: auto;
+    border:  0px;
+}
+
+button {
+    margin-top: 3px;
+}
+
+#message {
+    display: inline-block;
+    width: 15%;
+}
+
+@media (max-width: 767px) {
+    .btn {
+        display: block;
+        width: 100%;
+    }
+}
